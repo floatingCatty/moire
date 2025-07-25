@@ -314,6 +314,7 @@ if __name__ == "__main__":
 
     # theta, theta_deg, bilayer = moire_graphene(m=0,r=1)
     # bilayer.write("POSCAR")
+    
     N = 5
     for i,j,k,l in irreducible_mesh_trilayer(N):
         atoms = shift_graphene_trilayer(i=i,j=j,k=k,l=l,n=N)
